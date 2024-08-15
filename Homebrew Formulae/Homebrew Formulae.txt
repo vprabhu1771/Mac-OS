@@ -23,6 +23,8 @@ https://formulae.brew.sh/formula/openjdk
 
 https://formulae.brew.sh/formula/python@3.9
 
+https://formulae.brew.sh/formula/python-tk@3.10
+
 https://formulae.brew.sh/cask/jetbrains-toolbox
 
 https://formulae.brew.sh/formula/composer
