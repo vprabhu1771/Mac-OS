@@ -1,0 +1,26 @@
+Android Studio -> Tools -> SDK Manager -> SDK Tools -> 
+Select Android SDK Command-line Tools (latest) -> Click Apply -> Wait Till Download and Install
+
+
+brew install --cask google-chrome
+
+flutter doctor --android-licenses
+
+brew install ruby-install chruby
+
+open ~/.zshrc
+
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+
+chruby ruby-3.1.2
+
+
+And execute 
+
+source ~/.zshrc 
+
+ruby-install --latest ruby
+
+ruby -v 

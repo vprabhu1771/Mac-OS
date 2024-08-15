@@ -1,0 +1,5 @@
+https://pilsniak.com/install-composer-mac-os
+
+brew install composer
+
+composer --version

@@ -1,0 +1,12 @@
+https://stackoverflow.com/questions/62593939/cocoapods-not-installed-or-not-in-valid-state
+
+
+
+
+use brew to install cocoapods
+
+    sudo gem uninstall cocoapods
+    brew install cocoapods
+    brew link --overwrite cocoapods
+
+if need unlink & link again brew unlink cocoapods && brew link cocoapods
