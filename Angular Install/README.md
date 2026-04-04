@@ -1,25 +1,28 @@
+```
 brew -v
+```
 
 
-
-Install node via homebrew
-
+# Install node via homebrew
+```
 brew install node
-
-
+```
+```
 node -v
-
-OR
-
+```
+# OR
+```
 node --version
+```
 
-
-Install Angular CLI
-
+# Install Angular CLI
+```
 npm install -g @angular/cli
-
+```
+```
 ng -v
-
-OR
-
+```
+# OR
+```
 ng --version
+```
