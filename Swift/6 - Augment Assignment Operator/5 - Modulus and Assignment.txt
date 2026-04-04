@@ -1,0 +1,10 @@
+import UIKit
+
+var x: Int = 7
+
+x %= 3
+
+print(x)
+
+OUTPUT
+1

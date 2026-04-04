@@ -1,0 +1,11 @@
+import UIKit
+
+var x: Int = 7
+
+var y: Int = 3
+
+print("\(x) / \(y) = \(x/y)")
+
+OUTPUT
+
+7 / 3 = 2

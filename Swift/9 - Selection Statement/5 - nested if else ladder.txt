@@ -1,0 +1,25 @@
+import UIKit
+
+var age: Int = 20
+
+if(age >= 18 && age <= 22)
+{
+    print("You are eligible for house loan")
+    
+    if(age >= 18 && age <= 20)
+    {
+        print("Car loan also available")
+    }
+    else
+    {
+        print("car loan not available")
+    }
+}
+else
+{
+    print("You are not eligible for house loan")
+}
+
+OUTPUT
+You are eligible for house loan
+Car loan also available

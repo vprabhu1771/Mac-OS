@@ -1,0 +1,28 @@
+import UIKit
+
+var data: String = "i am from cuddalore"
+
+for element in data {
+    print("\(element)")
+}
+
+OUTPUT
+i
+ 
+a
+m
+ 
+f
+r
+o
+m
+ 
+c
+u
+d
+d
+a
+l
+o
+r
+e

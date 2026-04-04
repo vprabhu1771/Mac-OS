@@ -1,0 +1,7 @@
+Right click project_folder -> Add Package
+
+Controllers
+
+Views
+
+Models

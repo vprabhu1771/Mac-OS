@@ -1,0 +1,8 @@
+import UIKit
+
+var fruits = ["Apple", "Orange", "Mango", "Jack Fruit"]
+
+print(fruits.endIndex)
+
+OUTPUT
+4

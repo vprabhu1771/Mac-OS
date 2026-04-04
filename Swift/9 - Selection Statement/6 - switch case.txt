@@ -1,0 +1,30 @@
+import UIKit
+
+var option: Int = 3
+
+switch(option)
+{
+    case 1:
+        print("Good Morning")
+        break
+    
+    case 2:
+        print("Good Afternoon")
+        break
+    
+    case 3:
+        print("Good Evening")
+        break
+    
+    case 4:
+        print("Good Night")
+        break
+    
+    default:
+        print("Invaild Option")
+        break
+    
+}
+
+OUTPUT
+Good Evening

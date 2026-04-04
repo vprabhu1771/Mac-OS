@@ -1,0 +1,10 @@
+import UIKit
+
+func good_morning()  {
+    print("Good Moring")
+}
+
+good_morning()
+
+OUTPUT
+Good Moring

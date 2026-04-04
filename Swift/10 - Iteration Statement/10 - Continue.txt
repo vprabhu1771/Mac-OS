@@ -1,0 +1,20 @@
+import UIKit
+
+for element in 1...5
+{
+    print("\(element)")
+    
+    if element == 3
+    {
+        print("Continue Statement Executed")
+        continue
+    }
+}
+
+OUTPUT
+1
+2
+3
+Continue Statement Executed
+4
+5

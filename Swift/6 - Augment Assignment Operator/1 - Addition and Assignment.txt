@@ -1,0 +1,10 @@
+import UIKit
+
+var x: Int = 5
+
+x += 2
+
+print(x)
+
+OUTPUT
+7

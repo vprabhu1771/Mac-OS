@@ -1,0 +1,44 @@
+import Foundation
+import SwiftUI
+
+struct CategoryModel: Hashable, Codable {
+        
+    let category: String
+
+}
+
+class CategoryViewModel: ObservableObject {
+    
+    @Published var category: [CategoryModel] = []
+    
+    func fetch() {
+        
+        guard let url = URL(string: "http://192.168.0.113/hotel_yup/category.php") else
+        {
+            return
+        }
+        
+        let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+            
+            guard let data = data, error == nil else {
+                return
+            }
+            
+            // Convert To JSON
+            do
+            {
+                let category = try JSONDecoder().decode([CategoryModel].self, from: data)
+                
+                DispatchQueue.main.async {
+                    self?.category = category
+                }
+            }
+            catch {
+                print(error)
+            }
+        }
+        
+        
+        task.resume()
+    }
+}

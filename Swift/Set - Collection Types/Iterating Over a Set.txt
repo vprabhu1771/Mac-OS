@@ -1,0 +1,13 @@
+import UIKit
+
+var fruits: Set<String> = ["Apple", "Orange", "Mango", "Jack Fruit"]
+
+for element in fruits {
+    print("\(element)")
+}
+
+OUTPUT
+Mango
+Jack Fruit
+Apple
+Orange

@@ -1,0 +1,43 @@
+import SwiftUI
+
+struct CategoryListView: View {
+    
+    @StateObject var categoryViewModel = CategoryViewModel()
+    
+    var body: some View {
+        
+        
+        NavigationView {
+            
+            List {
+                
+                ForEach(categoryViewModel.category, id: \.self) { category in
+                    
+                    HStack {
+                        
+                        
+                        Text(category.category)
+                            .bold()
+                        
+                    }
+                    .padding(3)
+                    
+                    
+                }
+                
+            }
+            .navigationTitle("Category")
+            .onAppear {
+                categoryViewModel.fetch()
+            }
+            
+        }
+        
+    }
+}
+
+struct CategoryListView_Previews: PreviewProvider {
+    static var previews: some View {
+        CategoryListView()
+    }
+}

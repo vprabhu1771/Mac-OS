@@ -1,0 +1,13 @@
+import UIKit
+
+let fruits = ["Apple", "Orange", "Mango", "Jack Fruit"]
+
+var vegitables: [String] = []
+
+print(fruits.isEmpty)
+
+print(vegitables.isEmpty)
+
+OUTPUT
+false
+true

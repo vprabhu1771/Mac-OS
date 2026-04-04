@@ -1,0 +1,14 @@
+import UIKit
+
+var count: Int
+
+for element in 1...5 {
+    print("\(element)")
+}
+
+OUTPUT
+1
+2
+3
+4
+5

@@ -1,0 +1,8 @@
+import UIKit
+
+var data: Bool = true
+
+print("\(data)")
+
+OUTPUT
+true

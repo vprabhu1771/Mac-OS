@@ -1,0 +1,10 @@
+import UIKit
+
+var x: Int = 10
+
+var y: Int = 5
+
+print("\(x) + \(y) = \(x+y)")
+
+OUTPUT
+10 + 5 = 15

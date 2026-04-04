@@ -1,0 +1,11 @@
+import UIKit
+
+var age: Int = 25
+
+if(age >= 18)
+{
+    print("You are eligible for voting")
+}
+
+OUTPUT
+You are eligible for voting

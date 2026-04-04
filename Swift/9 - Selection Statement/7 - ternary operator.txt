@@ -1,0 +1,8 @@
+import UIKit
+
+var age: Int = 22
+
+print( (age >= 18) ? "Eligible for voting" : "Not Eligible for voting" )
+
+OUTPUT
+Eligible for voting

@@ -1,0 +1,10 @@
+import UIKit
+
+var data = [20, 30]
+
+data.insert(10, at: 0)
+
+print(data)
+
+OUTPUT
+[10, 20, 30]

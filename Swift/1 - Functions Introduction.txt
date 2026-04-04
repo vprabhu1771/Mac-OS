@@ -1,0 +1,6 @@
+
+Syntax
+
+func <#name#>(<#parameters#>) -> <#return type#> {
+    <#function body#>
+}

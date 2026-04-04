@@ -1,0 +1,9 @@
+import UIKit
+
+var name: String = "Prabhu"
+
+print("Name is \(name)")
+
+OUTPUT
+
+Name is Prabhu

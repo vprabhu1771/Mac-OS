@@ -1,0 +1,19 @@
+import UIKit
+
+
+var x: Int = 10
+
+var y: Int = 5
+
+
+// In swift, string interpolation is done using \() within strings.
+
+print("x = \(x)")
+
+print("y = \(y)")
+
+
+OUTPUT
+x = 10
+
+y = 5

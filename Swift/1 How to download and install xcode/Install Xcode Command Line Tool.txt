@@ -1,0 +1,5 @@
+Open Terminal, and run the following:
+
+xcode-select --install
+
+This will pop a dialogue box, Select "Install", and it will download and install the Command Line Tools package and fix the problem. (The popped Window may be behind other windows.)

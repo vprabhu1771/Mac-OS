@@ -1,0 +1,14 @@
+import UIKit
+
+let fruits = ["Apple", "Orange", "Mango", "Jack Fruit"]
+
+for element in fruits
+{
+    print("\(element)")
+}
+
+OUTPUT
+Apple
+Orange
+Mango
+Jack Fruit

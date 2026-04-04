@@ -1,0 +1,18 @@
+import UIKit
+
+for element in 1...5
+{
+    print("\(element)")
+    
+    if element == 3
+    {
+        print("Break Statement Executed")
+        break
+    }
+}
+
+OUTPUT
+1
+2
+3
+Break Statement Executed

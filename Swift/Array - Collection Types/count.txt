@@ -1,0 +1,8 @@
+import UIKit
+
+let fruits = ["Apple", "Orange", "Mango", "Jack Fruit"]
+
+print(fruits.count)
+
+OUTPUT
+4

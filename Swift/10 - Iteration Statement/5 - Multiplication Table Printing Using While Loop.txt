@@ -1,0 +1,24 @@
+import UIKit
+
+var count: Int = 1
+
+var table_no: Int = 2;
+
+while(count <= 10)
+{
+    print("\(count) * \(table_no) = \(count*table_no)")
+    
+    count += 1
+}
+
+OUTPUT
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+4 * 2 = 8
+5 * 2 = 10
+6 * 2 = 12
+7 * 2 = 14
+8 * 2 = 16
+9 * 2 = 18
+10 * 2 = 20

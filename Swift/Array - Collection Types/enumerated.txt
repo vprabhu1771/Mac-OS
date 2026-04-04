@@ -1,0 +1,13 @@
+import UIKit
+
+var fruits = ["Apple", "Orange", "Mango", "Jack Fruit"]
+
+for (index, value) in fruits.enumerated() {
+    print("Item \(index): \(value)")
+}
+
+OUTPUT
+Item 0: Apple
+Item 1: Orange
+Item 2: Mango
+Item 3: Jack Fruit

@@ -1,0 +1,10 @@
+import UIKit
+
+func good_morning() -> String {
+    return "Good Morning"
+}
+
+print(good_morning())
+
+OUTPUT
+Good Morning

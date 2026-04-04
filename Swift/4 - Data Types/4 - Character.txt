@@ -1,0 +1,9 @@
+import UIKit
+
+var data: Character = "A"
+
+print("Character is \(data)")
+
+OUTPUT
+
+Character is A
