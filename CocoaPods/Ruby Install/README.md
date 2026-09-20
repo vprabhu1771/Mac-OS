@@ -4,19 +4,19 @@ Because ruby 3.3.4 is currently loaded earlier in your system's search order, ru
 Run the following commands in your terminal to update your configuration file (assuming you are using the default macOS Zsh shell):
 
    1. Add the Homebrew Ruby binary paths to your .zshrc profile:
-   
+   ```bash
    echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
    echo 'export PATH="/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"' >> ~/.zshrc
-   
+   ```
    2. Apply the changes to your current terminal session:
-   
+   ```bash
    source ~/.zshrc
-   
+   ```
    3. Verify the active version:
-   
+   ```bash
    ruby --version
-   
+   ```
    It should now output ruby 4.0.7....
 
-If the version still shows 3.3.4 after running those commands, please share the output of cat ~/.zshrc so we can see how your version manager (like chruby, rbenv, or rvm) is overriding the path.
+If the version still shows 3.3.4 after running those commands, please share the output of `cat ~/.zshrc` so we can see how your version manager (like `chruby`, `rbenv`, or `rvm`) is overriding the path.
 
