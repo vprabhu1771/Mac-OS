@@ -45,4 +45,6 @@ If you use another shell, check out this tutorial on setting your PATH.
 
 # CocoaPods
 
-$ gem install cocoapods
+```bash
+gem install cocoapods
+```
