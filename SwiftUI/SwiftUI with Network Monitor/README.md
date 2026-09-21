@@ -44,9 +44,9 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 30) {
             Text(verbatim: "Connected: \(networkMonitor.isActive)")
-            Text(verbatim: "Low Data Mode: \(networkMonitor.isActive)")
-            Text(verbatim: "Connected: \(networkMonitor.isActive)")
-            Text(verbatim: "Connected: \(networkMonitor.isActive)")
+            Text(verbatim: "Low Data Mode: \(networkMonitor.isConstrained)")
+            Text(verbatim: "Mobile Data / Hotspot: \(networkMonitor.isExpensive)")
+            Text(verbatim: "Type: \(networkMonitor.connectionType)")
         }
         .padding()
     }
