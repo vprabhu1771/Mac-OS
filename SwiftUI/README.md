@@ -1,0 +1,10 @@
+# SwiftUI Documentation
+```
+https://developer.apple.com/documentation/swiftui/list/
+```
+```
+https://swiftuidocs.com/layout/spacer
+```
+```
+https://betterprogramming.pub/the-complete-swiftui-documentation-youve-been-waiting-for-fdfe7241add9
+```
