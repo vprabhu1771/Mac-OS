@@ -2,3 +2,7 @@
 ```
 https://www.youtube.com/shorts/hVdAtV46U2c
 ```
+
+```
+Settings -> Accessibility -> Touch -> Back Tap -> Double Tap -> Screenshot
+```
