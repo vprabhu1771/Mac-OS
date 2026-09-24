@@ -19,13 +19,14 @@ Xcode presents user-friendly names by default, but the underlying system relies 
 
 ## 3. How to Read/Write Plist Values Programmatically
 You can query the values inside your Info.plist file at runtime using Bundle.main.infoDictionary: [7] 
-
+```
 // Get the App Version (e.g., "1.0")if let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
     print("App Version is \(appVersion)")
 }
 // Get the Bundle Identifierif let bundleID = Bundle.main.bundleIdentifier {
     print("Bundle ID is \(bundleID)")
 }
+```
 
 ## 4. Viewing Raw XML Source Code
 If Xcode displays the file in its default table format, you can view and edit the raw XML directly: [6] 
