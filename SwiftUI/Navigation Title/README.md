@@ -20,7 +20,7 @@ struct VikitView: View {
 ```
 ------------------------------
 ## Controlling the Display Mode
-By default, iOS displays the title in a Large format that shrinks to a smaller Inline format as the user scrolls. You can force a specific layout style using the .navigationBarTitleDisplayMode(_:) modifier: [4, 5] 
+By default, iOS displays the title in a Large format that shrinks to a smaller Inline format as the user scrolls. You can force a specific layout style using the `.navigationBarTitleDisplayMode(_:)` modifier: [4, 5] 
 ```
 Text("Content")
     .navigationTitle("Settings")
@@ -28,7 +28,7 @@ Text("Content")
 ```
 ------------------------------
 ## Customizing the Title View (Advanced)
-If you need to include images, subtitles, or specific typography, the standard .navigationTitle string is intentionally limited. Instead, you can pass a custom view to the .toolbar principal placement: [6, 7] 
+If you need to include images, subtitles, or specific typography, the standard `.navigationTitle` string is intentionally limited. Instead, you can pass a custom view to the `.toolbar` principal placement: [6, 7] 
 ```
 NavigationStack {
     VStack {
@@ -49,8 +49,8 @@ NavigationStack {
 ```
 ## Common Pitfalls
 
-* Wrong Container Placement: Placing .navigationTitle() directly on the NavigationStack { ... } instead of the view inside it will result in the title not appearing at all. [3] 
-* Deprecation Notice: Older tutorials use .navigationBarTitle(). This has been deprecated; always prefer .navigationTitle() for modern iOS development. [3, 8] 
+* Wrong Container Placement: Placing `.navigationTitle()` directly on the `NavigationStack { ... }` instead of the view inside it will result in the title not appearing at all. [3] 
+* Deprecation Notice: Older tutorials use `.navigationBarTitle()`. This has been deprecated; always prefer `.navigationTitle()` for modern iOS development. [3, 8] 
 
 Would you like to know how to pass dynamic data to the title from a subview, or are you looking to change the background color of the navigation bar? [8] 
 
