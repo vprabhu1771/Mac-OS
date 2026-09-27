@@ -1,5 +1,5 @@
-In SwiftUI, you set the navigation title using the .navigationTitle(_:) modifier. [1, 2] 
-Crucially, the modifier must be attached to the view inside the NavigationStack, not to the container itself. This design allows the title to change dynamically as different views are pushed onto the navigation stack. [3] 
+In SwiftUI, you set the navigation title using the `.navigationTitle(_:)` modifier. [1, 2] 
+Crucially, the modifier must be attached to the view inside the `NavigationStack`, not to the container itself. This design allows the title to change dynamically as different views are pushed onto the navigation stack. [3] 
 ## Basic Implementation
 ```
 import SwiftUI
