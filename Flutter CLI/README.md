@@ -21,3 +21,36 @@ cd my_app
 flutter run
 ```
 If you have multiple devices connected, the `flutter run` command will prompt you to select which one to use.
+
+To restrict a new or existing Flutter project to Android and iOS only, use the --platforms flag during creation or use the flutter config command. [1, 2] 
+## Option 1: Create a new project with only mobile platforms
+When creating a brand-new project, explicitly specify only the android and ios platforms using the --platforms option: [1, 3] 
+
+flutter create --platforms=android,ios my_app_name
+
+(Replace my_app_name with your preferred project name).
+## Option 2: Clean up an existing project
+If you already created a project that generated folders for other platforms (like web, windows, macos, or linux), you can safely limit it back to mobile: [3] 
+
+   1. Open your project directory and delete the platform folders you do not want (e.g., delete the web, windows, macos, and linux folders manually).
+   2. Re-initialize the project using the platforms flag to ensure everything is configured correctly:
+   
+   flutter create --platforms=android,ios .
+   
+   
+## Option 3: Permanently disable desktop/web globally
+If you want all future standard flutter create commands to default strictly to mobile apps without typing the flag every time, disable the other platforms in your global Flutter configuration: [2] 
+
+flutter config --no-enable-web
+flutter config --no-enable-linux-desktop
+flutter config --no-enable-macos-desktop
+flutter config --no-enable-windows-desktop
+
+(If you ever need them back, change --no-enable to --enable). [2] 
+------------------------------
+Would you like to know how to adjust your configuration to choose Kotlin/Swift over Java/Objective-C for these folders? [3, 4] 
+
+[1] [https://stackoverflow.com](https://stackoverflow.com/questions/52199136/create-a-new-app-for-either-ios-or-android-using-flutter)
+[2] [https://stackoverflow.com](https://stackoverflow.com/questions/63119667/how-to-create-flutter-project-only-for-only-android-and-ios-even-if-web-support)
+[3] [https://docs.flutter.dev](https://docs.flutter.dev/packages-and-plugins/developing-packages)
+[4] [https://stackoverflow.com](https://stackoverflow.com/questions/53294148/recreate-flutters-ios-and-android-folder-with-swift-and-kotlin)
