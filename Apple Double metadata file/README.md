@@ -40,9 +40,7 @@ If your project resides on an external drive formatted as FAT/exFAT, macOS creat
 - Use a tool like **BlueHarvest** to automatically prevent macOS from creating `._` files on non-Mac filesystems
 
 
-# ------
-
-
+------
 The error is caused by macOS "AppleDouble" files being injected into your build's source packages. The files starting with `._` (like `._GULNSData+zlib.h`) are not valid C/C++ headers; they are metadata files created by macOS, and Xcode is failing because it cannot read them as UTF-8 source code.
 
 ### 🛠️ The Fix: Clean Your Project
