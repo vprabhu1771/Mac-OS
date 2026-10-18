@@ -27,6 +27,10 @@ flutter run
 
 The `dot_clean` command has limitations on newer macOS versions. Consider installing `mrg`, which is a more reliable CLI tool for removing AppleDouble files:
 
+```
+https://github.com/ilotoki0804/mrg
+```
+
 ```bash
 brew install mrg
 mrg --dot /Volumes/SSD/Pushpa/Taxi-app-live/passenger-app/build
